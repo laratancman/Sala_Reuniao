@@ -80,7 +80,7 @@ projeto/
 ## ▶️ Como Executar o Projeto
 
 1. Clone o repositório:
-2. 2. Importe o projeto em sua IDE Java (ex: Eclipse ou IntelliJ)
+2. Importe o projeto em sua IDE Java (ex: Eclipse ou IntelliJ)
 3. Configure a conexão com o banco de dados no arquivo de conexão JDBC
 4. Importe o script `banco.sql` no seu banco
 5. Inicie o servidor (Apache Tomcat ou similar)
