@@ -1,0 +1,63 @@
+.table {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #1e6aa9;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid #d0e6f7;
+}
+
+.table td {
+    padding: 12px;
+    background-color: #f4f9fd;
+    border: 1px solid #cce3f6;
+    color: #1e6aa9;
+}
+
+label {
+    margin: 20px;
+}
+
+td a {
+    color: #1e6aa9;
+    text-decoration: none;
+}
+
+.btn-editar,
+.btn-excluir {
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+}
+
+.btn-editar {
+    background-color: #1e6aa9;
+    color: white;
+}
+
+.btn-editar:hover {
+    background-color: #155a8a;
+}
+
+.btn-excluir {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-excluir:hover {
+    background-color: #a71d2a;
+}

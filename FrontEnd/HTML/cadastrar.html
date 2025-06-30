@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastrar Sala</title>
+  <link rel="stylesheet" href="../CSS/global.css" />
+  <link rel="shortcut icon" href="../images/createroom.png" type="image/x-icon" />
+  <script src="../JS/cadastrar.js" defer></script>
+</head>
+
+<body>
+  <header class="header">Sistema de Gerenciamento de Sala de Reuniões</header>
+
+  <div class="buttom">
+    <a href="index.html" class="starter">Voltar</a>
+  </div>
+
+  <form class="form" id="form">
+    <div>
+      <label for="nomeSala">Nome da Sala</label>
+      <input type="text" name="nomeSala" id="nomeSala" required />
+    </div>
+
+    <div>
+      <label for="capacidade">Capacidade</label>
+      <input type="number" name="capacidade" id="capacidade" required />
+    </div>
+
+    <div>
+      <label for="localizacao">Localização</label>
+      <input type="text" placeholder="Ex: 2º Andar - Sala 23B" id="localizacao" required />
+    </div>
+
+    <div>
+      <label for="possuiProjetor">Possui Projetor?</label>
+      <input type="checkbox" id="possuiProjetor" />
+    </div>
+
+    <div>
+      <label for="possuiArCondicionado">Possui Ar Condicionado?</label>
+      <input type="checkbox" id="possuiArCondicionado" />
+    </div>
+
+    <div>
+      <label for="numeroCadeiras">Número de Cadeiras</label>
+      <input type="number" id="numeroCadeiras" required />
+    </div>
+
+    <div>
+      <label for="tipoMesa">Tipo de Mesa</label>
+      <input type="text" placeholder="Ex: Mesa de Plástico" id="tipoMesa" required />
+    </div>
+
+    <div>
+      <label for="recursosAdicionais">Recursos Adicionais</label>
+      <input type="text" placeholder="Ex: Projetor, Microfone" id="recursosAdicionais" required />
+    </div>
+
+    <div>
+      <p class="sucesso" id="sucesso">Sala Cadastrada com sucesso</p>
+    </div>
+
+    <div>
+      <p class="erroNomeSala" id="erroNomeSala">Nome da sala ja cadastrado</p>
+    </div>
+
+    <div>
+      <p class="erroLocalizacao" id="erroLocalizacao">Localizacao ja cadastrada em outra sala</p>
+    </div>
+
+    <button type="submit" class="form-button">Cadastrar Sala</button>
+  </form>
+
+  <footer class="footer">Desenvolvido por: Lara Tancman - 2025</footer>
+</body>
+
+</html>

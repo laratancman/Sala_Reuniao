@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alterar Sala</title>
+    <link rel="shortcut icon" href="../images/updateroom.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../CSS/global.css" />
+    <script src="../JS/alterar.js"></script>
+</head>
+
+<body>
+    <header class="header">Sistema de Gerenciamento de Sala de Reunioes</header>
+
+    <div class="buttom">
+        <a href="consultar.html" class="starter">Voltar</a>
+    </div>
+
+    <form class="form" id="form">
+        <div>
+            <label for="nomeSala">Nome da Sala</label>
+            <input type="text" name="nomeSala" id="nomeSala" />
+        </div>
+
+        <div>
+            <label for="capacidade">Capacidade</label>
+            <input type="number" name="capacidade" id="capacidade" />
+        </div>
+
+        <div>
+            <label for="localizacao">Localização</label>
+            <input type="text" name="localizacao" id="localizacao" placeholder="Ex: 2 Andar Sala 23B" />
+        </div>
+
+        <div>
+            <label for="possuiProjetor">Possui Projetor?</label>
+            <input type="checkbox" id="possuiProjetor" />
+        </div>
+
+        <div>
+            <label for="possuiArCondicionado">Possui Ar Condicionado?</label>
+            <input type="checkbox" id="possuiArCondicionado" />
+        </div>
+
+        <div>
+            <label for="numeroCadeiras">Número de Cadeiras</label>
+            <input type="number" name="numeroCadeiras" id="numeroCadeiras" />
+        </div>
+
+        <div>
+            <label for="tipoMesa">Tipo de Mesa</label>
+            <input type="text" name="tipoMesa" id="tipoMesa" placeholder="Ex: Mesa Redonda" />
+        </div>
+
+        <div>
+            <label for="recursosAdicionais">Recursos Adicionais</label>
+            <input type="text" name="recursosAdicionais" id="recursosAdicionais"
+                placeholder="Ex: Projetor, Microfone" />
+        </div>
+
+        <div id="sucesso" style="display: none;">
+            <p>Sala atualizada com sucesso!</p>
+        </div>
+
+        <button type="submit" class="form-button">Alterar Sala</button>
+    </form>
+
+
+    <footer class="footer">Desenvolvido por: Lara Tancman - 2025</footer>
+</body>
+
+</html>

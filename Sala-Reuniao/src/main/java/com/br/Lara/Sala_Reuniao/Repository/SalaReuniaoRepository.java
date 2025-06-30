@@ -1,5 +1,7 @@
 package com.br.Lara.Sala_Reuniao.Repository;
 
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -11,5 +13,7 @@ public interface SalaReuniaoRepository extends JpaRepository<SalaReuniao, Intege
     SalaReuniao findByNome(String nome);
 
     SalaReuniao findByLocalizacao(String localizacao);
+
+    List<SalaReuniao> findByNomeContainingIgnoreCase(String nome);
     
 }
